@@ -36,7 +36,7 @@
 	allowing cluster environments such as RHCS to have identical FreeSWITCH configurations but run
 	as different hostnames.
     -->
-    <!-- <param name="switchname" value="freeswitch"/> -->
+    <!-- <param name="switchname" value="freeswitch01"/> -->
     <!-- <param name="cpu-idle-smoothing-depth" value="30"/> -->
 
 

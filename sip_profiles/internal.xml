@@ -26,7 +26,7 @@
   </domains>
 
   <settings>
-
+    <param name="track-calls" value="true"/>
 
     <!-- inject delay between dtmf digits on send to help some slow interpreters (also per channel with rtp_digit_delay var -->
     <!-- <param name="rtp-digit-delay" value="40"/>-->
@@ -281,8 +281,8 @@
          auto                  - Use guessed ip.
          auto-nat              - Use ip learned from NAT-PMP or UPNP
     -->
-    <param name="ext-rtp-ip" value="auto-nat"/>
-    <param name="ext-sip-ip" value="auto-nat"/>
+    <param name="ext-rtp-ip" value="stun:phone.meraki.com"/>
+    <param name="ext-sip-ip" value="35.190.18.82"/>
 
     <!-- rtp inactivity timeout -->
     <param name="rtp-timeout-sec" value="300"/>
